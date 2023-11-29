@@ -87,6 +87,19 @@ int main()
     cylinderArea= (2*Cr*pi*Ch)+ (2*pi*(Cr*Cr));
     cout<< "Cylinder area is "<< cylinderArea<<" squremeter."<<endl;
     
+    cout<<"\nCone:\n";
+    
+    float pi=3.14159;
+    double coneArea;
+    double Cor,Coh;
+    cout<< "Enter cylinder radius value"<<endl;
+    cin>>Cor;
+    cout<< "Enter cylinder height value"<<endl;
+    cin>>Coh;
+    cout<<"So your radius & height value  = "<<Cor<<" ,"<<Coh<<endl;
+    coneArea= (Cor*pi)*(Cor + sqrt((Coh*Coh)+(Cor*Cor)));
+    cout<< "Cone area is "<< coneArea<<" squremeter."<<endl;
+    
     
     return 0;
 }
